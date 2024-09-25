@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veriface Login/Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <img src="logo.png" alt="Veriface Logo" class="logo">
+            <h1>Veriface</h1>
+        </div>
+        <div class="login-section">
+            <div class="form-container">
+                <div class="tab">
+                    <button class="tab-btn active" id="loginTab">Log in</button>
+                    <button class="tab-btn" id="signupTab">Sign up</button>
+                </div>
+                <div class="form-wrapper">
+                    <!-- Login Form -->
+                    <form id="loginForm" class="form">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter username" required>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" placeholder="Enter password" required>
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <a href="#" class="forgot">Forgot password?</a>
+                    </form>
+
+                    <!-- Sign Up Form -->
+                    <form id="signupForm" class="form">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter username" required>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Enter email" required>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" placeholder="Create password" required>
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
